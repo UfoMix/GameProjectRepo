@@ -7,11 +7,11 @@ namespace Joni.ItemSystem
     {
 
         [SerializeField]
-        Sprite _icon;
-        [SerializeField]
         string _name;
         [SerializeField]
         int _value;
+        [SerializeField]
+        Sprite _icon;
         [SerializeField]
         int _burden;
         [SerializeField]

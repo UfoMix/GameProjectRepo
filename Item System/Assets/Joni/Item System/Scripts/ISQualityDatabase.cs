@@ -7,8 +7,8 @@ namespace Joni.ItemSystem
     public class ISQualityDatabase : ScriptableObject
     {
 
-        // [SerializeField]
-        List<ISQuality> db = new List<ISQuality>();
+        //[SerializeField]
+        public List<ISQuality> database = new List<ISQuality>();
         
     }
 }

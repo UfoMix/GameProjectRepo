@@ -13,7 +13,7 @@ namespace Joni.ItemSystem
         Sprite _icon;
 
 
-        ISQuality()
+        public ISQuality()
         {
             _name = "Common";
             _icon = new Sprite();
